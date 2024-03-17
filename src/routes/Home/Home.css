@@ -1,0 +1,48 @@
+/* Estilo para a tabela */
+.table-container {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: inherit; /* Herda a fonte do elemento pai */
+  }
+  
+  /* Estilo para o cabeçalho da tabela */
+  .table-container th {
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  /* Estilo para as células da tabela */
+  .table-container td {
+    padding: 8px;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+  }
+
+  /* Estilo para o parágrafo de carregamento */
+  .loading-message {
+    margin-top: 10px;
+    font-style: italic;
+    color: #a9abb3; /* Muda a cor do parágrafo para a cor original */
+  }
+  
+.btn {
+    background-color: #FFF;
+    color: #0e1217;
+    border: 1px solid #FFF;
+    opacity: 1;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    max-width: 100px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-left: 0.5rem;
+}
+
+.btn:hover {
+    color: #FFF;
+    background-color: #0e1217;
+}

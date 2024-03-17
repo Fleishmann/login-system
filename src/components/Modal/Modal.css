@@ -1,0 +1,62 @@
+/* Modal.css */
+.modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .modal-content {
+    background-color: #17191f;
+    padding: 20px;
+    border-radius: 10px; /* Aumenta o raio da borda */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma leve sombra */
+    max-width: 500px; /* Largura máxima do conteúdo */
+    width: 100%; /* Garante que o conteúdo ocupe toda a largura */
+  }
+  
+  .modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .modal-header h2 {
+    margin: 0;
+  }
+  
+  .close {
+    cursor: pointer;
+    color: #666; /* Cor do ícone de fechar */
+    font-size: 20px; /* Tamanho do ícone de fechar */
+  }
+  
+  .close:hover {
+    color: #333; /* Cor do ícone de fechar ao passar o mouse */
+  }
+  
+  /* Estilos para os inputs */
+  input[type="email"],
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Garante que o padding não afete a largura total */
+    transition: border-color 0.3s ease; /* Adiciona uma transição suave para a cor da borda */
+  }
+  
+  /* Estilizar inputs quando em foco */
+  input[type="email"]:focus,
+  input[type="password"]:focus {
+    border-color: #007bff; /* Cor da borda ao focar */
+    outline: none; /* Remove a borda ao redor do input */
+  }
+  
